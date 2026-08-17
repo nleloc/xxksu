@@ -259,7 +259,7 @@ private fun StatusCard(
                     true -> "LKM"
                     else -> "GKI"
                 }
-                val workingText = "${stringResource(id = R.string.home_working)}$workingState"
+                val workingText = "${stringResource(id = R.string.home_working)} 🍉$workingState"
 
                 Row(
                     modifier = Modifier
